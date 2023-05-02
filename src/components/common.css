@@ -1,0 +1,37 @@
+.header_main .navbar-text{
+	padding: 10px;	
+}
+.main_container .navbar-collapse.search_item{
+    display: inline-block !important;
+}
+.main_container .navbar-collapse.search_item .navbar-text{
+	float: right;
+}
+.movie_list {
+    padding-bottom: 90px;
+}
+.movie_list p{
+	color:white;
+	padding-top:24px;
+}
+.movie_list img {
+    width: 100%;
+    height: auto;
+}
+
+.no_list {
+	color: wheat;
+	text-align: center;
+	padding: 20px;
+}
+
+@media(max-width:480px){
+	.listItems{
+		width:50%
+	}
+}
+@media(max-width:366px){
+	.listItems{
+		width:100%
+	}
+}
