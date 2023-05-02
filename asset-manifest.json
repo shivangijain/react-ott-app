@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-ott-app/static/css/main.9f8fc3ee.css",
-    "main.js": "/react-ott-app/static/js/main.8aedbd99.js",
+    "main.css": "/react-ott-app/static/css/main.a80f7894.css",
+    "main.js": "/react-ott-app/static/js/main.124b3764.js",
     "index.html": "/react-ott-app/index.html",
-    "main.9f8fc3ee.css.map": "/react-ott-app/static/css/main.9f8fc3ee.css.map",
-    "main.8aedbd99.js.map": "/react-ott-app/static/js/main.8aedbd99.js.map"
+    "main.a80f7894.css.map": "/react-ott-app/static/css/main.a80f7894.css.map",
+    "main.124b3764.js.map": "/react-ott-app/static/js/main.124b3764.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f8fc3ee.css",
-    "static/js/main.8aedbd99.js"
+    "static/css/main.a80f7894.css",
+    "static/js/main.124b3764.js"
   ]
 }
