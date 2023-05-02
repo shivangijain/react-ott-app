@@ -5,3 +5,4 @@ export const SET_PAGE_NUMBER = 'SET_PAGE_NUMBER';
 export const INITIAL_PAGE = 1;
 export const MISSING_IMAGE_PATH = '/react-ott-app/slices/placeholder_for_missing_posters.png';
 export const ROOT_URL = 'react-ott-app';
+export const API_URL = 'https://shivangijain.github.io/react-ott-app';

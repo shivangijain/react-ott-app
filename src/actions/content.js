@@ -1,5 +1,5 @@
 import axios from "axios";
-import { FETCH_CONTENT_LIST, CLEAR_CONTENT_LIST, SET_SEARCH_QUERY,SET_PAGE_NUMBER, ROOT_URL } from "../constants";
+import { FETCH_CONTENT_LIST, CLEAR_CONTENT_LIST, SET_SEARCH_QUERY,SET_PAGE_NUMBER, API_URL } from "../constants";
 
 const fetchList = (data, query) => {
 	return {
@@ -34,7 +34,7 @@ export const clearContentList = () => dispatch => {
 }
 
 export const getContentList = ({page, query}) => async (dispatch) => {
-  const response = await axios.get(`${ROOT_URL}/api/CONTENTLISTINGPAGE-PAGE${page}.json`);
+  const response = await axios.get(`${API_URL}/api/CONTENTLISTINGPAGE-PAGE${page}.json`);
   if (response.status === 200) {
     dispatch(fetchList(response.data, query))
   }
