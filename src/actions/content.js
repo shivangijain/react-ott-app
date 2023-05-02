@@ -34,7 +34,7 @@ export const clearContentList = () => dispatch => {
 }
 
 export const getContentList = ({page, query}) => async (dispatch) => {
-  const response = await axios.get(`${ROOT_URL}/api/CONTENTLISTINGPAGE-PAGE${page}.json`);
+  const response = await axios.get(`/api/CONTENTLISTINGPAGE-PAGE${page}.json`);
   if (response.status === 200) {
     dispatch(fetchList(response.data, query))
   }
