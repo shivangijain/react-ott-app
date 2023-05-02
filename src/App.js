@@ -18,7 +18,7 @@ const App = (props) => {
     <div className="container main_container">
       <Header title={props.title} />
       <Routes>
-        <Route exact path={ROOT_URL} element={<Listing/>} />
+        <Route exact path={`/${ROOT_URL}`} element={<Listing/>} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>

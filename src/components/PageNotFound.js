@@ -13,7 +13,7 @@ const PageNotFound = () => {
 
         <h4>Come Back To Home, Friend ! 😇</h4>
         <br />
-        <Link to={ROOT_URL} className="link404">
+        <Link to={`/${ROOT_URL}`} className="link404">
           Home Page
         </Link>
       </div>

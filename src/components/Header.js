@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { setSearchQuery } from "../actions/content";
 import "./common.css";
+import { ROOT_URL } from "../constants";
 
 const Header = (props) => {
   const [showSearhBox, setShowSearchBox] = useState(false);
@@ -26,7 +27,7 @@ const Header = (props) => {
     <Navbar bg="dark" variant="dark" className="header_main">
       <Container>
         <Navbar.Brand href="#" onClick={handleBack}>
-          <img src="slices/Back.png" alt="back" width="20" height="20" />
+          <img src={`/${ROOT_URL}/slices/Back.png`} alt="back" width="20" height="20" />
         </Navbar.Brand>
         <Navbar.Toggle />
         {showSearhBox ? (
@@ -39,7 +40,7 @@ const Header = (props) => {
         <Navbar.Collapse id="justify-content-end " className="search_item">
           <Navbar.Text>
             <img
-              src="slices/search.png"
+              src={`/${ROOT_URL}/slices/search.png`}
               alt="search"
               onClick={() => setShowSearchBox(true)}
               width="20"
