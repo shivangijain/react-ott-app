@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Listing from "./components/Listing";
 import "./App.css";
 import PageNotFound from "./components/PageNotFound";
+import { ROOT_URL } from "./constants";
 
 const App = (props) => {
   useEffect(() => {
@@ -17,7 +18,7 @@ const App = (props) => {
     <div className="container main_container">
       <Header title={props.title} />
       <Routes>
-        <Route exact path="/" element={<Listing/>} />
+        <Route exact path={ROOT_URL} element={<Listing/>} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>

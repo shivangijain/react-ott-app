@@ -21,7 +21,7 @@ npm install
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) and take a look around.
+Open [http://localhost:3000/react-ott-app](http://localhost:3000/react-ott-app) and take a look around.
 
 ## Improvements
 

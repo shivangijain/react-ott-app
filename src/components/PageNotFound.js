@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ROOT_URL } from "../constants";
 
 const PageNotFound = () => {
   return (
@@ -12,7 +13,7 @@ const PageNotFound = () => {
 
         <h4>Come Back To Home, Friend ! 😇</h4>
         <br />
-        <Link to='/' className="link404">
+        <Link to={ROOT_URL} className="link404">
           Home Page
         </Link>
       </div>
