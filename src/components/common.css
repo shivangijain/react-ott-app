@@ -27,11 +27,13 @@
 
 @media(max-width:480px){
 	.listItems{
-		width:33%
+		width:33%;
+		font-size: 10pt;
 	}
 }
 @media(max-width:366px){
 	.listItems{
-		width:100%
+		width:100%;
+		font-size: 10pt;
 	}
 }

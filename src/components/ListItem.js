@@ -7,7 +7,7 @@ const ListItem = ({ name, posterImage }) => {
   return (
     <div className="movie_list">
       <img onError={addDefaultSrc} src={`/react-ott-app/slices/${posterImage}`} alt={name} height='272px' width={'180px'}></img>
-			<p>{name.length > 9 ? `${name.substring(0,9)}...` : name}</p>
+			<p>{name.length > 12 ? `${name.substring(0,12)}...` : name}</p>
     </div>
   );
 };
