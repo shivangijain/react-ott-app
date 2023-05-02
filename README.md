@@ -12,8 +12,8 @@ This is the Diagonal React workshop ott App.
 Clone the repo and install/setup the dependencies.
 
 ```bash
-git clone 
-cd 
+git clone git@github.com:shivangijain/react-ott-app.git
+cd react-ott-app
 ```
 
 ```bash
