@@ -25,6 +25,10 @@
 	padding: 20px;
 }
 
+.search_input {
+	width: 100%;
+}
+
 @media(max-width:480px){
 	.listItems{
 		width:33%;

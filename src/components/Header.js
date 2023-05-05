@@ -29,10 +29,9 @@ const Header = (props) => {
         <Navbar.Brand href="#" onClick={handleBack}>
           <img src={`/${ROOT_URL}/slices/Back.png`} alt="back" width="20" height="20" />
         </Navbar.Brand>
-        <Navbar.Toggle />
         {showSearhBox ? (
           <Navbar.Text>
-            <input autoFocus type="text" onChange={handleSearch} />
+            <input autoFocus className={'search_input'} type="text" onChange={handleSearch} />
           </Navbar.Text>
         ) : (
           <Navbar.Text>{props.title}</Navbar.Text>
