@@ -18,8 +18,7 @@ export const contentList = (
       const data = action.query.length
       ? contentList.filter((content) => {
             return (
-              content.name.substring(0, action.query.length).toLowerCase() ===
-              action.query.toLowerCase()
+              content.name.toLowerCase().includes(action.query.toLowerCase())
             );
           })
         : contentList;
